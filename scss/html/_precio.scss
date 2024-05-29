@@ -1,0 +1,15 @@
+@import"..//utilidades/variables";
+
+.precio{
+    display: flex;
+   justify-content: space-between;
+   font-weight: bolder;
+   p{
+    font-size: 1.1rem;
+    :first-child{
+     text-decoration: line-through;
+     background-color: $color-principal;
+     color:black;
+    }
+   }
+  }

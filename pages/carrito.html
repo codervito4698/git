@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../archivos-css/css/styles.css">
+    <script src="https://kit.fontawesome.com/5265dc4804.js" crossorigin="anonymous"></script>
     <title>Carrito</title>
    </head>
 
@@ -11,92 +12,209 @@
       
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- 
+   
   
 
 <header>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
-                </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../pages/empresa.html">EMPRESA</a>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                    <li class="nav-item">
-                </li>
-                  </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PRODUCTOS
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="../pages/productos.html">BALLI PILLOW TOP</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">PRO ECO</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">BAULERAS</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">TEENAGERS</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">BABY</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">COLCHONETAS</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">RESPALDOS</a></li>
-                    <li><a class="dropdown-item" href="../pages/productos.html">ROPA DE CAMA</a></li>
-                    <li>
-
-                      <hr class="dropdown-divider">
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">BUSCADOR</button>
-              </form>
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+  <nav class="navbar">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+          <a class="nav-link" href="../pages/empresa.html">EMPRESA</a>
+          <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+          <a class="nav-link" href="../pages/carrito.html">CARRITO</a>
+          <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
         </div>
-    </nav>
+    
+      </div>
+    </div>
+  </nav>
 </header>
 
-
-
-  
-<h1>Opciones de Productos</h1>
-<main class="contenedor">
-  <h1>Opciones de Productos</h1>
-  <div class="img todos los productos">
-       <img alt width 100% height auto src="../img/111.png" alt="">
-                   
-
-    <nav>
-        <ul>
-  
-            <a href="Newsletter"> Newsletter</a>
- 
-   
-            <a href="Suscrimirme"> Suscribirme</a>    
-  
-            <a href="Redes Sociales"> Redes Sociales</a>   
+<img src="../img/111.png" alt="">
+<div class="container">
       
-  
-            <a href="contacto.html"> Contacto</a> 
-
+     
+ <nav id="carrito">
+    <i class="fa-solid fa-cart-shopping">
+      <div class="buy-card">
+        <ul class="nav-card">
+          <li>Imagen</li>
+          <li>Nombre</li>
+          <li>Cantidad</li>
+          <li>Total</li>
+          <li></li>
         </ul>
-    </nav> 
+        <div class="lista_de_productos">
+         
+        </div> 
+        <button id="vaciar_carrito">VACIAR CARRITO</button>
+        </div>
+    </i>
+ </nav>
+
+ <h1>ELECCION DE PRODUCTOS:</h1>
+
+<div class="grid"id="lista-productos">
+
+
+ <div class="items">
+    <img src="../img/img productos/producto 1 bali pillow top.JPG">
+    <div class="info">
+        <h3>Conjunto Balli Pillow Top:</h3>
+        <p>Medias en Stock:
+          90×190 cm o 90×200 cm (Twin/Single)
+          105×190 cm o 105×200 cm (Twin/Single)
+          135×190 cm o 135×200 cm (Double/full)
+          150×190 cm o 150×200 cm (Queen size)
+          180×190 cm, 180×200 cm o 180×210 cm (King size)
+          200 x 200 cm, 200 x 210 cm o 200 x 220 cm (Presidential King size)</p>
+        <div class="precio">
+         <p>$80.000</p>
+         <p class="descuento">$40.000</p>
+        </div>
+        <button class="agregar_carrito">Agregar al Carrito</button>
+    </div>
+</div>
+
+  <div class="items">
+    <img src="../img/img productos/producto 2 pro eco.JPG">
+    <div class="info">
+      <h3>Conjunto Pro Eco:</h3>
+      <p>Medias en Stock:
+        90×190 cm o 90×200 cm (Twin/Single)
+        105×190 cm o 105×200 cm (Twin/Single)
+        135×190 cm o 135×200 cm (Double/full)
+        150×190 cm o 150×200 cm (Queen size)
+        180×190 cm, 180×200 cm o 180×210 cm (King size)
+        200 x 200 cm, 200 x 210 cm o 200 x 220 cm (Presidential King size)</p>
+        <div class="precio">
+           <p>$59.000</p>
+           <p class="descuento">$29.500</p>
+        </div>
+        <button class="agregar_carrito">Agregar al Carrito</button>
+       </div>
+   </div>
+
+  <div class="items">
+    <img src="../img/img productos/producto 3 bauleras.JPG">
+    <div class="info">
+     <h3>Bauleras:</h3>
+     <p>Medias en Stock:
+        90×190 cm o 90×200 cm (Twin/Single)
+        105×190 cm o 105×200 cm (Twin/Single)
+        135×190 cm o 135×200 cm (Double/full)
+        150×190 cm o 150×200 cm (Queen size)
+        180×190 cm, 180×200 cm o 180×210 cm (King size)
+       200 x 200 cm, 200 x 210 cm o 200 x 220 cm (Presidential King size)</p>
+       <div class="precio">
+          <p>$30.000</p>
+          <p class=" descuento">$15.000</p>
+       </div>
+       <button class="agregar_carrito">Agregar al Carrito</button>
+      </div>
+   </div>
+
+  <div class="items">
+    <img src="../img/img productos/producto 4 teenagers.JPG">
+    <div class="info">
+      <h3>Teenagers:</h3>
+      <p>Medias en Stock:
+        90×190 cm o 90×200 cm (Twin/Single)
+        105×190 cm o 105×200 cm (Twin/Single)</p>
+      <div class="precio">
+        <p>$25.500</p>
+        <p class="descuento">$12.500</p>
+      </div>
+      <button class="agregar_carrito">Agregar al Carrito</button>
+      </div>
+   </div>
+
+  <div class="items">
+    <img src="../img/img productos/producto 5 baby.JPG">
+    <div class="info">
+      <h3>Baby:</h3>
+      <p> Medidas en Stock:
+          60x120 cm o 70x140 cm (babys)</p>
+      <div class="precio">
+        <p>$8.000</p>
+        <p class="descuento">$4.000</p>
+    </div>
+    <button class="agregar_carrito">Agregar al Carrito</button>
+    </div>
   </div>
- </main>
+   <div class="items">
+    <img src="../img/img productos/producto 6 colchonetas.JPG">
+     <div class="info">
+        <h3>Colchonetas:</h3>
+        <p>Medidas en stock:90×190 cm o 90×200 cm (Twin/Single)
+          105×190 cm o 105×200 cm (Twin/Single)
+          135×190 cm o 135×200 cm (Double/full)</p>
+          <div class="precio">
+          <p>$20.500</p>
+          <p class="descuento">$15.800</p>
+          </div>
+      <button class="agregar_carrito">Agregar al Carrito</button>
+      </div>
+  </div>
+  <div class="items">
+    <img src="../img/img productos/producto 7 respaldos.jpg">
+    <div class="info">
+      <h3>Respaldos:</h3>
+      <p>Medidas en stock:90×190 cm o 90×200 cm (Twin/Single)
+        105×190 cm o 105×200 cm (Twin/Single)
+        135×190 cm o 135×200 cm (Double/full)
+        150×190 cm o 150×200 cm (Queen size)
+        180×190 cm, 180×200 cm o 180×210 cm (King size)
+        200 x 200 cm, 200 x 210 cm o 200 x 220 cm (Presidential King size)</p>
+       <div class="precio">
+          <p>$20.000</p>
+          <p class="descuento">$10.000</p>
+       </div>
+      <button class="agregar_carrito">Agregar al Carrito</button>
+    </div>
+  </div>
+  <div class="items">
+    <img src="../img/img productos/producto 8 ropa de cama.jpg">
+    <div class="info">
+      <h3>Ropa de Cama:</h3>
+      <p>Medidas en stock:
+         90×190 cm o 90×200 cm (Twin/Single)
+         105×190 cm o 105×200 cm (Twin/Single)
+         135×190 cm o 135×200 cm (Double/full)
+         150×190 cm o 150×200 cm (Queen size)
+         180×190 cm, 180×200 cm o 180×210 cm (King size)
+         200 x 200 cm, 200 x 210 cm o 200 x 220 cm (Presidential King size)</p>
+      <div class="precio">
+       <p>$3.000</p>
+       <p class="descuento">$1.500</p>
+      </div>
+      <button class="agregar_carrito">Agregar al Carrito</button>
+    </div>
+  </div>
+</div>      
+
+<nav>
+    <ul>
+        <a href="https://www.gob.mx/cms/uploads/attachment/file/100346/RC456_Estudio_Calidad_Colchones.pdf"> Newsletter</a>
+        <a href="Suscrimirme"> Suscribirme</a>
+        <a href= "https://www.facebook.com"i class="fa-brands fa-facebook"></i></a>  
+          <a href="https://www.instagram.com"i class="fa-brands fa-instagram"></i></a>
+        <a href="contacto.html"> Contacto</a>
+     </ul>
+</nav>
+
+
 <footer>
        <p> todos los derechos reservados</p>
 </footer> 
+
 </body>     
 </html>

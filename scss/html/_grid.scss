@@ -1,0 +1,12 @@
+@import"../utilidades/variables";
+
+.grid{
+    border-radius: 5px;
+      display: grid;
+      max-width: 1200px;
+      justify-content: center;
+      gap: 20px;
+      margin: auto;
+      grid-template-columns: repeat(auto-fit, minmax(280px,280px));
+      padding-bottom: 40%;
+    }

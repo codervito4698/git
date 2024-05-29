@@ -1,0 +1,88 @@
+@import"../utilidades/variables";
+
+header{
+    background-color:$color-principal;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    nav{
+        padding: 2rem;
+        width: 50%;
+        border: none;
+        outline: none;
+        color: $color-primary;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        font-family: "Noto Serif", serif;
+    }
+  }
+section{
+    h1{
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #035A06;
+    color: $color-primary;
+    text-align: center;}
+  nav{
+    ul{
+        li{
+            font-size: 1rem;
+            font-family: "Noto Serif", serif;
+            list-style: none;
+            background-color: $color-principal;
+            color: $color-primary;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }   
+  }
+}
+main{
+    h1{
+        font-family: "Noto Serif", serif;
+        margin-bottom: $medida-principal -70px;
+      border-radius: 5px;
+      background-color: $color-principal;
+      color: $color-primary;
+       text-align: center;}
+     nav{
+      ul{
+        li{
+            font-family: "Noto Serif", serif;
+            border-radius: 5px;
+       list-style: none;
+       color: $color-primary;
+       background-color:$color-principal; 
+       text-align: center;
+
+        }
+    }
+  }
+}
+
+div{
+    img{
+        align-content: center;
+        border-radius: 5px;
+        width: 90%;
+        height: 50%;}
+        iframe{
+            margin-bottom: 15px;
+ }
+}
+
+img{
+    align-content: left;
+}
+footer{
+    font-family: "Noto Serif", serif;
+    border-radius: 5px;
+    background-color:$color-principal;
+    color: $color-primary;
+    text-align: center;
+}
