@@ -1,6 +1,6 @@
-@import "../utilidades/variables";
+
 .container{
-    border-radius: 5px;
+  border-radius: 5px;
   background-color: whitesmoke;
   margin-bottom: 15px;
   h1{
@@ -20,6 +20,9 @@
     background-color: whitesmoke;
     margin-bottom: 30px;
     color:$color-principal;
+    @include mobile{
+      background-color: #035A06;
+    }
   button{
     display: none;}
   i{
@@ -31,11 +34,18 @@
     position: absolute;
     background-color: yellowgreen;
     margin: 0 10px 0 10px;
-    .lista_de_productos div{
+    right: 0;
+    grid-template-columns: repeat(auto-fit, minmax(280px,280px));
+  
+    @include mobile{
+      width: 50%;
+    }
+    .lista_de_productos{
         display: flex;
         flex-direction: row;
     }
     button{
+      font-size: small;
         display: block;
           width: 80%;
          padding: 6rem;
@@ -51,7 +61,7 @@ cursor: pointer;
  }
 }
     :hover nav-card{ 
-        font-size: 1.1rem;
+  font-size: 1.1rem;
   display: flex;
   justify-content: space-between;
   margin: 0 10px 0 10px;

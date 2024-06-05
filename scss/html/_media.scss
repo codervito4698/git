@@ -1,10 +1,13 @@
-@mixin flex {
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
+$breakpoints: (
+  mobile: 800px,
+  tablet: 1023px,
+  desktop: 1280px,
 
-}
-@mixin desktop {
+);
+  
+    
+  
+  @mixin desktop {
     @media screen and (max-width: 1280px) {
               @content;
           }
@@ -20,3 +23,7 @@
           }
   }
  
+
+
+
+
