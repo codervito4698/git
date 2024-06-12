@@ -1,24 +1,25 @@
-@import"../utilidades/variables";
+
 
 header{
-    background-color:$color-principal;
+    background-color:#035A06;
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 5px; 
+}
     nav{
         padding: 2rem;
         width: 50%;
         border: none;
         outline: none;
-        color: $color-primary;
+        color: #FFFFFF;
         font-size: 1.1rem;
         margin-bottom: 5px;
         border-radius: 5px;
         font-family: "Noto Serif", serif;
     }
-  }
+  
 section{
     h1{
     font-size: 1rem;
@@ -26,7 +27,7 @@ section{
     margin-bottom: 30px;
     border-radius: 5px;
     background-color: #035A06;
-    color: $color-primary;
+    color: #FFFFFF;
     text-align: center;}
   nav{
     ul{
@@ -34,8 +35,8 @@ section{
             font-size: 1rem;
             font-family: "Noto Serif", serif;
             list-style: none;
-            background-color: $color-principal;
-            color: $color-primary;
+            background-color: #035A06;
+            color: #FFFFFF;
             text-align: center;
             border-radius: 5px;
         }
@@ -45,10 +46,10 @@ section{
 main{
     h1{
         font-family: "Noto Serif", serif;
-        margin-bottom: $medida-principal -70px;
+        margin-bottom: 100px -70px;
       border-radius: 5px;
-      background-color: $color-principal;
-      color: $color-primary;
+      background-color: #035A06;
+      color: #FFFFFF;
        text-align: center;}
      nav{
       ul{
@@ -56,8 +57,8 @@ main{
             font-family: "Noto Serif", serif;
             border-radius: 5px;
        list-style: none;
-       color: $color-primary;
-       background-color:$color-principal; 
+       color: #FFFFFF;
+       background-color:#035A06; 
        text-align: center;
 
         }
@@ -82,7 +83,7 @@ img{
 footer{
     font-family: "Noto Serif", serif;
     border-radius: 5px;
-    background-color:$color-principal;
-    color: $color-primary;
+    background-color:#035A06;
+    color:#FFFFFF;
     text-align: center;
 }

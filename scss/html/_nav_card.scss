@@ -1,10 +1,11 @@
-@import"../utilidades/variables";
+
 
 .nav-card{
     display: none;
     li{
         list-style: none;
-  padding: 1rem;
-  font-family: "Noto Serif", serif;
+        padding: 1rem;
+        font-family: "Noto Serif", serif;
+        font-weight: bolder;
     }
 }

@@ -1,7 +1,6 @@
-@import"../utilidades/variables";
+
 
 .lista_de_productos{
-    div{
    display: none;
    text-align: center;
    padding: 10px 0 0 0;
@@ -9,10 +8,10 @@
    img{
       width: 100px;}
    p{
-      width: 300px;
+      width: 200px;
      font-size: 1.1rem;
      :nth-child(4){
-      padding-left: 40px;}
+      padding-left: 50px;}
       :last-child span{
           background-color: red;
        border-radius: 50%;
@@ -20,7 +19,7 @@
        color: $color-primary;
       }
      }
- }   
+ 
 
 
 
