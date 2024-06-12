@@ -20,7 +20,10 @@ header {
 }
 
 nav {
+<<<<<<< HEAD
   background-color: #035A06;
+=======
+>>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
   padding: 2rem;
   width: 50%;
   border: none;
@@ -118,6 +121,11 @@ footer {
 
 }
 
+@media screen and (max-width: 800px) {
+  .container nav {
+    background-color: #035A06;
+  }
+}
 @media screen and (max-width: 800px) {
   .container nav {
     background-color: #035A06;

@@ -19,8 +19,13 @@
     width: 100%;
     padding: 15px;
     background-color: whitesmoke;
+<<<<<<< HEAD
     margin-bottom: 20px;
     color:black;
+=======
+    margin-bottom: 30px;
+    color:$color-principal;
+>>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
     @include mobile{
       background-color: #035A06;
     }
