@@ -74,7 +74,8 @@ div img {
   align-content: center;
   border-radius: 5px;
   width: 90%;
-  height: 50%;
+  height: 50px;
+
 }
 div iframe {
   margin-bottom: 15px;
@@ -118,11 +119,6 @@ footer {
 
 }
 
-@media screen and (max-width: 800px) {
-  .container nav {
-    background-color: #035A06;
-  }
-}
 @media screen and (max-width: 800px) {
   .container nav {
     background-color: #035A06;

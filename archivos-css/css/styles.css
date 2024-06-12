@@ -50,9 +50,9 @@ main nav ul li{
 }
 
 footer{
+  color: #FFFFFF;
   border-radius: 5px;
   background-color: #035A06;
-  color: #FFFFFF;
   text-align: center;
 }
 div img{
@@ -97,7 +97,7 @@ div iframe{
 .container p{
   font-size: small;
   margin-bottom: 20px;
-  color:#035A06;
+  color:#FFFFFF;
 }
 .nav-card{
   display: none;
