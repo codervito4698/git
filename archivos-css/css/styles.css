@@ -78,11 +78,7 @@ div iframe{
   width: 100%;
   padding: 15px;
   background-color: whitesmoke;
-<<<<<<< HEAD
   margin-bottom: 20px;
-=======
-  margin-bottom: 30px;
->>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
   color:black;
 }
 .container nav i{
@@ -134,7 +130,6 @@ div iframe{
   grid-template-columns: repeat(auto-fit, minmax(280px,280px));
 }
 .container nav i:hover .buy-card >button {
-<<<<<<< HEAD
   font-size: small;
   display: block;
   width: 80%;
@@ -144,16 +139,6 @@ div iframe{
   border: solid thin whitesmoke;
   color: #FFFFFF;
   cursor: pointer;
-=======
-display: block;
-width: 100%;
-padding: 1rem;
-margin: 0 auto;
-background-color: transparent;
-border: solid thin whitesmoke;
-color: #FFFFFF;
-cursor: pointer;
->>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
 }
 .container nav i:hover .buy-card > button:hover {
   border: solid thin navy;
@@ -355,11 +340,7 @@ img{
   background-color:#035A06;
   }  
   .container nav i :hover buy-card{
-<<<<<<< HEAD
     width: 70%;
-=======
-    width: 50%;
->>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
   }
 }
 
@@ -369,10 +350,7 @@ img{
   footer{
   text-align: left;
  }
-<<<<<<< HEAD
 }
-=======
->>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
 /*mq desktop*/
 
 @media only  screen  and (max-width: 1280px){ 
@@ -380,11 +358,6 @@ img{
  header{
   text-align: center;
 } 
-<<<<<<< HEAD
 }
 
 
-=======
-  }
-}
->>>>>>> 04362bab9baab503c7a72d25c67a99e0c38b7d84
